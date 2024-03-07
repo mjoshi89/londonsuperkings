@@ -3,175 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>London SuperKings Match Fixtures</title>
+    <title>London SuperKings Website</title>
     <style>
-    /* Display list items horizontally */
-    ul.horizontal-list {
-      list-style-type: none; /* Remove default list styling */
-      padding: 0; /* Remove default padding */
-    }
-
-    ul.horizontal-list li {
-      display: inline-block; /* Display list items horizontally */
-      margin-right: 10px; /* Add some space between list items */
-    }
-  </style>
-    <link rel="stylesheet" href="styles.css">
+        /* CSS for styling the menu */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        nav ul li a:hover {
+            background-color: #ccc;
+        }
+    </style>
 </head>
 <body>
-    <h1>Meet the admin team</h1>
-    <ul class="horizontal-list">
-        <li>Manish</li>
-        <li>Prakash</li>
-        <li>Rushil</li>
-        <li>Sahil</li>
-        <li>Saket</li>
-        <li>Saurabh</li>
-        <li>Shubham</li>
-        <li>Sneh</li>
-        <li>Surjit</li>
-   </ul>
-    <h1>Leave Feedback for the admin team</h1>
-	<form action="https://formspree.io/f/xayrjdeb" method="POST">
-  		<label for="feedback">Leave your feedback as anonymous:</label><br>
-  		<textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
-  		<input type="submit" value="Submit">
-	</form>
-    <h1>Pre-Season Friendly Match Fixtures</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Match</th>
-                <th>Location</th>
-                <th>Match Report</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>6th April, 2024</td>
-                <td>Southwark CC first XI vs LondonSuperKings</td>
-                <td>Location TBD</td>
-                <td><a href="match_report_6th_april_team1.html">Match Summary Link</a></td>
-            </tr>
-            <tr>
-                <td>13th April, 2024</td>
-                <td>Southwark CC second XI vs LondonSuperKings</td>
-                <td>Location TBD</td>
-                <td>Link TBD</td>
-            </tr>
-            <tr>
-                <td>13th April, 2024</td>
-                <td>Stokes Newington first XI vs LondonSuperKings</td>
-                <td>Location TBD</td>
-                <td>Link TBD</td>
-            </tr>
-            <tr>
-                <td>20th April, 2024</td>
-                <td>Roehampton third XI vs LondonSuperKings</td>
-                <td>Location TBD</td>
-                <td>Link TBD</td>
-            </tr>
-            <tr>
-                <td>20th April, 2024</td>
-                <td>LondonSuperKings vs Amazon CC</td>
-                <td>Regents Park</td>
-                <td>Link TBD</td>
-            </tr>
-            <tr>
-                <td>27th April, 2024</td>
-                <td>LondonSuperKings vs Desparados</td>
-                <td>Regents Park</td>
-                <td>Link TBD</td>
-            </tr>
-            <tr>
-                <td>4th May, 2024</td>
-                <td>LondonSuperKings vs LondonSuperKings</td>
-                <td>Regents Park</td>
-                <td>Link TBD</td>
-            </tr>
-            <!-- Add more fixtures as needed -->
-        </tbody>
-    </table>
-    <h1>Team 1 League Match Fixtures</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Match</th>
-                <th>Location</th>
-                <th>Match Report</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>11th May, 2024</td>
-                <td>United Sporting Club vs LondonSuperKings</td>
-                <td>Location TBD</td>
-                <td>Link TBD</td>
-            </tr>
-            <tr>
-                <td>18th May, 2024</td>
-                <td>LondonSuperKings vs North London Muslims</td>
-                <td>Regents Park</td>
-                <td>Link TBD</td>
-            </tr>
-            <tr>
-                <td>25th May, 2024</td>
-                <td>South Harrow vs LondonSuperKings</td>
-                <td>Location TBD</td>
-                <td>Link TBD</td>
-            </tr>
-            <tr>
-                <td>1st June, 2024</td>
-                <td>Priory Park vs LondonSuperKings</td>
-                <td>Location TBD</td>
-                <td>Link TBD</td>
-            </tr>
-        </tbody>
-    </table>
-    <h1>Team 2 League Match Fixtures</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Match</th>
-                <th>Location</th>
-                <th>Match Report</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>11th May, 2024</td>
-                <td>LondonSuperKings vs New Calypsonians</td>
-                <td>Regents Park</td>
-                <td>Link TBD</td>
-            </tr>
-            <tr>
-                <td>18th May, 2024</td>
-                <td>Harlington Meadows vs LondonSuperKings</td>
-                <td>Location TBD</td>
-                <td>Link TBD</td>
-            </tr>
-            <tr>
-                <td>25th May, 2024</td>
-                <td>LondonSuperKings vs Peshwa</td>
-                <td>Regents Park</td>
-                <td>Link TBD</td>
-            </tr>
-            <tr>
-                <td>1st June, 2024</td>
-                <td>LondonSuperKings vs Pinner Challengers</td>
-                <td>Regents Park</td>
-                <td>Link TBD</td>
-            </tr>
-        </tbody>
-    </table>
-    <h1>Recent Announcements</h1>
-    <ul>
-        <li>[Mar 2024] LSK is organising a Meet and Greet lunch for it's club members on 3rd March. Please mark your availability in the whatsapp group</li>
-        <li>[Feb 2024] LSK has secured Regents Park as their home ground for 2024 Middlesex season</li>
-        <li>[Jan 2024] LSK is looking for volunteers to join the admin group. There are various positions that are open as listed in the 2024 club communication</li>
-    </ul>
+  <header>
+    <h1>Welcome to London SuperKings Website</h1>
+  </header>
+<nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fixtures.html">Fixtures</a></li>
+            <li><a href="sponsership.html">Sponsership</a></li>
+            <li><a href="contact.html">Feedback</a></li>
+        </ul>
+    </nav>
+<main>
+        <!-- Your main content goes here -->
+    </main>
+    <footer>
+        <!-- Your footer content goes here -->
+    </footer>
 </body>
 </html>
